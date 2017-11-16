@@ -1,8 +1,8 @@
 var conteiner = document.querySelector('.conteiner');
 var parent = document.querySelectorAll('.parent');
-var images = ['url(images/1.jpg)','url(images/2.jpg)','url(images/3.jpg)'/*,'url(images/4.jpg)','url(images/5.jpg)',
+var images = ['url(images/1.jpg)','url(images/2.jpg)','url(images/3.jpg)','url(images/4.jpg)','url(images/5.jpg)',
 'url(images/6.jpg)','url(images/7.jpg)','url(images/8.jpg)','url(images/9.jpg)','url(images/10.jpg)',
-'url(images/11.jpg)','url(images/12.jpg)','url(images/13.jpg)','url(images/14.jpg)','url(images/15.jpg)'*/];
+'url(images/11.jpg)','url(images/12.jpg)','url(images/13.jpg)','url(images/14.jpg)','url(images/15.jpg)'];
 var mutches = 0;
 var children = document.querySelectorAll('.children'); //вытаскиваем все элементы нашим классом в массив
 function shuffle(a) { //функция перемешивания значений массива
