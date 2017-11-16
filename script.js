@@ -113,5 +113,5 @@ function check_elements(backgroundImage)
 		}
 	}
 }
-
+// и все без jquery :)
 
