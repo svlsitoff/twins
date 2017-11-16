@@ -1,0 +1,39 @@
+.conteiner{
+	border-radius: 10px;
+	display: inline-block;
+	width: 1050px;
+	height: 540px;
+	background-color: green
+	transition: 3s;
+	
+}
+.parent{
+	width: 190px;
+	height: 70px;
+	border: 3px solid red;
+	border-radius: 8px;
+	display: inline-block;
+	margin: 5px;
+
+	transition: 2s;
+
+}
+.children{
+	border-radius: 5px;
+	height: 100%;
+	width: 100%;
+	transition:  2s;
+	opacity: 0;
+}
+.show_me{
+	border-radius: 5px;
+	height: 100%;
+	width: 100%;
+	transition:  1s;
+	opacity: 1;
+}
+.btnbar input {
+	display: inline-block;
+	margin-top: 5px;
+	border: 3px solid black;
+}
